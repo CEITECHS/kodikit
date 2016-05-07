@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE6432621CDD7EA500F2662B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6432611CDD7EA500F2662B /* AppDelegate.swift */; };
+		DE6432641CDD7EA500F2662B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6432631CDD7EA500F2662B /* ViewController.swift */; };
+		DE6432671CDD7EA500F2662B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE6432651CDD7EA500F2662B /* Main.storyboard */; };
+		DE6432691CDD7EA500F2662B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE6432681CDD7EA500F2662B /* Assets.xcassets */; };
+		DE64326C1CDD7EA500F2662B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE64326A1CDD7EA500F2662B /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DE64325E1CDD7EA500F2662B /* KodiKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KodiKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE6432611CDD7EA500F2662B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DE6432631CDD7EA500F2662B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DE6432661CDD7EA500F2662B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DE6432681CDD7EA500F2662B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE64326B1CDD7EA500F2662B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DE64326D1CDD7EA500F2662B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE64325B1CDD7EA500F2662B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE6432551CDD7EA500F2662B = {
+			isa = PBXGroup;
+			children = (
+				DE6432601CDD7EA500F2662B /* KodiKit */,
+				DE64325F1CDD7EA500F2662B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE64325F1CDD7EA500F2662B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE64325E1CDD7EA500F2662B /* KodiKit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE6432601CDD7EA500F2662B /* KodiKit */ = {
+			isa = PBXGroup;
+			children = (
+				DE6432611CDD7EA500F2662B /* AppDelegate.swift */,
+				DE6432631CDD7EA500F2662B /* ViewController.swift */,
+				DE6432651CDD7EA500F2662B /* Main.storyboard */,
+				DE6432681CDD7EA500F2662B /* Assets.xcassets */,
+				DE64326A1CDD7EA500F2662B /* LaunchScreen.storyboard */,
+				DE64326D1CDD7EA500F2662B /* Info.plist */,
+			);
+			path = KodiKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE64325D1CDD7EA500F2662B /* KodiKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE6432701CDD7EA500F2662B /* Build configuration list for PBXNativeTarget "KodiKit" */;
+			buildPhases = (
+				DE64325A1CDD7EA500F2662B /* Sources */,
+				DE64325B1CDD7EA500F2662B /* Frameworks */,
+				DE64325C1CDD7EA500F2662B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KodiKit;
+			productName = KodiKit;
+			productReference = DE64325E1CDD7EA500F2662B /* KodiKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE6432561CDD7EA500F2662B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = CEITECHS;
+				TargetAttributes = {
+					DE64325D1CDD7EA500F2662B = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = GENQMH327N;
+					};
+				};
+			};
+			buildConfigurationList = DE6432591CDD7EA500F2662B /* Build configuration list for PBXProject "KodiKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE6432551CDD7EA500F2662B;
+			productRefGroup = DE64325F1CDD7EA500F2662B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE64325D1CDD7EA500F2662B /* KodiKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE64325C1CDD7EA500F2662B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE64326C1CDD7EA500F2662B /* LaunchScreen.storyboard in Resources */,
+				DE6432691CDD7EA500F2662B /* Assets.xcassets in Resources */,
+				DE6432671CDD7EA500F2662B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE64325A1CDD7EA500F2662B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE6432641CDD7EA500F2662B /* ViewController.swift in Sources */,
+				DE6432621CDD7EA500F2662B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DE6432651CDD7EA500F2662B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE6432661CDD7EA500F2662B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DE64326A1CDD7EA500F2662B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE64326B1CDD7EA500F2662B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE64326E1CDD7EA500F2662B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE64326F1CDD7EA500F2662B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE6432711CDD7EA500F2662B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KodiKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "iddy85-gmail.com.KodiKit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DE6432721CDD7EA500F2662B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KodiKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "iddy85-gmail.com.KodiKit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE6432591CDD7EA500F2662B /* Build configuration list for PBXProject "KodiKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE64326E1CDD7EA500F2662B /* Debug */,
+				DE64326F1CDD7EA500F2662B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE6432701CDD7EA500F2662B /* Build configuration list for PBXNativeTarget "KodiKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE6432711CDD7EA500F2662B /* Debug */,
+				DE6432721CDD7EA500F2662B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE6432561CDD7EA500F2662B /* Project object */;
+}
